@@ -10,3 +10,4 @@ jobs:
       # and run all Cypress tests
       - name: cypress run
         uses: cypress-io/github-action@v2
+         config-file: cypress.config.js
